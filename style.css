@@ -4,17 +4,29 @@
 }
 
 :root {
-  --color-primary1: #f4f8f5;
-  --color-primary2: #deede2;
-  --color-secondary1: #393c3a;
-  --color-secondary2: #010b04;
-  --color-accent1: #88fa8d;
-  --color-accent2: #e10c96;
+  /* --color-primary1: #A4BFF5;
+  --color-primary2: #B4DECB;
+  --color-secondary1: rgb(231, 231, 231);
+  --color-secondary2: #2f3130;
+  --color-accent1: #CC8ADE;
+  --color-accent2: #FA957C; */
+
+  --color-primary1: #A4BFF5;
+  --color-primary2: #B4DECB;
+  --color-secondary1: rgb(231, 231, 231);
+  --color-secondary2: #2f3130;
+  --color-accent1: #CC8ADE;
+  --color-accent2: #FA957C;
   /* Notice you can do this: --color-accent2: var(--color-accent1);*/
 }
 
 html {
   font-size: 1em;
+}
+
+main{
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 body {
